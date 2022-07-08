@@ -405,7 +405,7 @@ local function DQOBZ_fake_script() -- Main.LocalScript
 
 	--// Premium User //--
 	--// Premium User //--
-	local user_premium__001 = game.Players.TesterSpaceKitten --// Replace "User101" with your username (NOT DISPLAY) //--
+	local user_premium__001 = game.Players.Zanewsg1 --// Replace "User101" with your username (NOT DISPLAY) //--
 	
 	-----------------------------------------------------------------------
 	-----------------------------------------------------------------------

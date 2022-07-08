@@ -1,0 +1,986 @@
+local whitelist = "https://raw.githubusercontent.com/SpaceCat-Hub/Space-Cat-Alt-Control-Da-Hood/main/Keys"
+local blacklist = "https://raw.githubusercontent.com/SpaceCat-Hub/Space-Cat-Alt-Control-Da-Hood/main/Blacklist"
+local key = game:HttpGet(whitelist, true)
+banned = game:HttpGet(blacklist, true)
+plr = game.Players.LocalPlayer
+-- find data base
+if string.find(key, _G.Key) then
+     pcall(function()
+        game.StarterGui:SetCore("SendNotification", {
+          Title = 'welcome to baby-capybara AltControl';
+          Text = 'Thx for buy prem';
+          Duration = 20;
+        })
+        if not game.Players.LocalPlayer:IsInGroup(14709471) then
+          coroutine.resume(coroutine.create(function()
+             wait(10)
+             game.StarterGui:SetCore("SendNotification", {
+              Title = 'you are NOT in the group';
+              Text = 'JOIN IN THE GROUP FOR USE THE SCRIPT';
+              Duration = 20;
+             })
+             setclipboard('https://www.roblox.com/groups/14709471/Mrkitty-alt-control#!/about')
+          end))
+        end
+      end)
+      wait(0) local A_1 = "zdhc In The Top" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+local shadowUI = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Top = Instance.new("Frame")
+local Top_2 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local Text = Instance.new("TextLabel")
+local LineTop = Instance.new("TextLabel")
+local Holder = Instance.new("Frame")
+local Tab = Instance.new("Frame")
+local TeleportButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local SettingsButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TeleportHolder = Instance.new("Frame")
+local Bank = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Base = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UFO = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local BOX = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local SettingsHolder = Instance.new("Frame")
+local countercash = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local CrashFps = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local COPYGROUP = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local newcrash = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+
+--Properties:
+shadowUI.Parent = game.CoreGui
+shadowUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = shadowUI
+Main.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Main.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.356923074, 0, 0.345847607, 0)
+Main.Size = UDim2.new(0, 372, 0, 270)
+
+Top.Name = "Top"
+Top.Parent = Main
+Top.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Top.BorderSizePixel = 0
+Top.Size = UDim2.new(0, 372, 0, 22)
+
+Top_2.Name = "Top"
+Top_2.Parent = Top
+Top_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Top_2.BackgroundTransparency = 1.000
+Top_2.Size = UDim2.new(0, 70, 0, 25)
+Top_2.Font = Enum.Font.Gotham
+Top_2.Text = "V1"
+Top_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Top_2.TextSize = 17.000
+Top_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame.Parent = Top
+Frame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 11.2248478, 0)
+Frame.Size = UDim2.new(0, 372, 0, 19)
+
+Frame_2.Parent = Top
+Frame_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.951613069, 0, 0.710371077, 0)
+Frame_2.Size = UDim2.new(0, 18, 0, 251)
+
+Frame_3.Parent = Top
+Frame_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0, 0, 1, 0)
+Frame_3.Size = UDim2.new(0, 22, 0, 236)
+
+Text.Name = "Text"
+Text.Parent = Top
+Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text.BackgroundTransparency = 1.000
+Text.Position = UDim2.new(0.379032254, 0, -0.0623556972, 0)
+Text.Size = UDim2.new(0, 90, 0, 24)
+Text.Font = Enum.Font.Gotham
+Text.Text = " "
+Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text.TextSize = 20.000
+
+LineTop.Name = "LineTop"
+LineTop.Parent = Top
+LineTop.BackgroundColor3 = Color3.fromRGB(74, 22, 22)
+LineTop.BorderSizePixel = 0
+LineTop.Position = UDim2.new(0.266129047, 0, 0.954545438, 0)
+LineTop.Size = UDim2.new(0, 161, 0, 1)
+LineTop.Font = Enum.Font.SourceSans
+LineTop.Text = " "
+LineTop.TextColor3 = Color3.fromRGB(0, 0, 0)
+LineTop.TextSize = 14.000
+
+Holder.Name = "Holder"
+Holder.Parent = Main
+Holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Holder.BackgroundTransparency = 1.000
+Holder.Position = UDim2.new(0, 0, -0.370370358, 0)
+Holder.Size = UDim2.new(0, 372, 0, 370)
+
+Tab.Name = "Tab"
+Tab.Parent = Holder
+Tab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tab.BackgroundTransparency = 1.000
+Tab.BorderSizePixel = 0
+Tab.Position = UDim2.new(0, 0, 0.0355355442, 0)
+Tab.Size = UDim2.new(0, 372, 0, 86)
+
+TeleportButton.Name = "TeleportButton"
+TeleportButton.Parent = Tab
+TeleportButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TeleportButton.Position = UDim2.new(0.0591397844, 0, 0.627906859, 0)
+TeleportButton.Size = UDim2.new(0, 116, 0, 23)
+TeleportButton.Font = Enum.Font.SourceSans
+TeleportButton.Text = "TELEPORTS"
+TeleportButton.TextColor3 = Color3.fromRGB(117, 184, 255)
+TeleportButton.TextSize = 20.000
+
+UICorner.Parent = TeleportButton
+
+SettingsButton.Name = "SettingsButton"
+SettingsButton.Parent = Tab
+SettingsButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+SettingsButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+SettingsButton.Position = UDim2.new(0.403225809, 0, 0.627906859, 0)
+SettingsButton.Size = UDim2.new(0, 116, 0, 23)
+SettingsButton.Font = Enum.Font.SourceSans
+SettingsButton.Text = "SETTINGS"
+SettingsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SettingsButton.TextSize = 23.000
+
+UICorner_2.Parent = SettingsButton
+
+TeleportHolder.Name = "TeleportHolder"
+TeleportHolder.Parent = Holder
+TeleportHolder.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TeleportHolder.BorderSizePixel = 0
+TeleportHolder.Position = UDim2.new(0.0591397844, 0, 0.337837845, 0)
+TeleportHolder.Size = UDim2.new(0, 332, 0, 221)
+TeleportHolder.Visible = false
+
+Bank.Name = "Bank"
+Bank.Parent = TeleportHolder
+Bank.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Bank.BorderSizePixel = 0
+Bank.Position = UDim2.new(0.0950536206, 0, 0.0499924906, 0)
+Bank.Size = UDim2.new(0, 51, 0, 25)
+Bank.Font = Enum.Font.GothamBold
+Bank.Text = "BANK"
+Bank.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bank.TextSize = 20.000
+
+UICorner_3.Parent = Bank
+
+Base.Name = "Base"
+Base.Parent = TeleportHolder
+Base.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Base.BorderSizePixel = 0
+Base.Position = UDim2.new(0.0950536206, 0, 0.235512853, 0)
+Base.Size = UDim2.new(0, 51, 0, 25)
+Base.Font = Enum.Font.GothamBold
+Base.Text = "BASE"
+Base.TextColor3 = Color3.fromRGB(255, 255, 255)
+Base.TextSize = 20.000
+
+UICorner_4.Parent = Base
+
+UFO.Name = "UFO"
+UFO.Parent = TeleportHolder
+UFO.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+UFO.BorderSizePixel = 0
+UFO.Position = UDim2.new(0.0950536206, 0, 0.43913275, 0)
+UFO.Size = UDim2.new(0, 51, 0, 25)
+UFO.Font = Enum.Font.GothamBold
+UFO.Text = "UFO"
+UFO.TextColor3 = Color3.fromRGB(255, 255, 255)
+UFO.TextSize = 20.000
+
+UICorner_5.Parent = UFO
+
+BOX.Name = "BOX"
+BOX.Parent = TeleportHolder
+BOX.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+BOX.BorderSizePixel = 0
+BOX.Position = UDim2.new(0.0950536206, 0, 0.606553614, 0)
+BOX.Size = UDim2.new(0, 51, 0, 25)
+BOX.Font = Enum.Font.GothamBold
+BOX.Text = "BOX"
+BOX.TextColor3 = Color3.fromRGB(255, 255, 255)
+BOX.TextSize = 20.000
+
+UICorner_6.Parent = BOX
+
+SettingsHolder.Name = "SettingsHolder"
+SettingsHolder.Parent = Holder
+SettingsHolder.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+SettingsHolder.BorderSizePixel = 0
+SettingsHolder.Position = UDim2.new(0.0591397844, 0, 0.337837845, 0)
+SettingsHolder.Size = UDim2.new(0, 332, 0, 221)
+SettingsHolder.Visible = false
+
+countercash.Name = "countercash"
+countercash.Parent = SettingsHolder
+countercash.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+countercash.BorderSizePixel = 0
+countercash.Position = UDim2.new(0.289156646, 0, 0.167420819, 0)
+countercash.Size = UDim2.new(0, 136, 0, 37)
+countercash.Font = Enum.Font.GothamBlack
+countercash.Text = "COUNTERCASH"
+countercash.TextColor3 = Color3.fromRGB(241, 241, 241)
+countercash.TextSize = 14.000
+
+UICorner_7.Parent = countercash
+
+CrashFps.Name = "Crash Fps"
+CrashFps.Parent = SettingsHolder
+CrashFps.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+CrashFps.BorderSizePixel = 0
+CrashFps.Position = UDim2.new(0.289156646, 0, 0.411764741, 0)
+CrashFps.Size = UDim2.new(0, 136, 0, 37)
+CrashFps.Font = Enum.Font.GothamBlack
+CrashFps.Text = "CRASH  FPS"
+CrashFps.TextColor3 = Color3.fromRGB(241, 241, 241)
+CrashFps.TextSize = 14.000
+
+UICorner_8.Parent = CrashFps
+
+COPYGROUP.Name = "COPYGROUP"
+COPYGROUP.Parent = SettingsHolder
+COPYGROUP.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+COPYGROUP.BorderSizePixel = 0
+COPYGROUP.Position = UDim2.new(0.289156646, 0, 1.86264515e-08, 0)
+COPYGROUP.Size = UDim2.new(0, 136, 0, 37)
+COPYGROUP.Font = Enum.Font.GothamBlack
+COPYGROUP.Text = "COPY GROUP LINK"
+COPYGROUP.TextColor3 = Color3.fromRGB(241, 241, 241)
+COPYGROUP.TextSize = 14.000
+
+UICorner_9.Parent = COPYGROUP
+
+newcrash.Name = "newcrash"
+newcrash.Parent = SettingsHolder
+newcrash.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+newcrash.BorderSizePixel = 0
+newcrash.Position = UDim2.new(0.289156646, 0, 0.633484185, 0)
+newcrash.Size = UDim2.new(0, 136, 0, 37)
+newcrash.Font = Enum.Font.GothamBlack
+newcrash.Text = "FAST CRASH"
+newcrash.TextColor3 = Color3.fromRGB(241, 241, 241)
+newcrash.TextSize = 14.000
+
+UICorner_10.Parent = newcrash
+
+-- Scripts:
+
+local function VUABO_fake_script() -- Main.Dragify 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(VUABO_fake_script)()
+local function POJD_fake_script() -- Text.LocalScript 
+	local script = Instance.new('LocalScript', Text)
+
+	while wait() do
+		script.Parent.Text = game.Players.LocalPlayer.Name
+	end
+	
+end
+coroutine.wrap(POJD_fake_script)()
+local function YHRXQJ_fake_script() -- TeleportButton.Script 
+	local script = Instance.new('Script', TeleportButton)
+
+	TeleportHolder = script.Parent.Parent.Parent.TeleportHolder
+	SettingsHolder = script.Parent.Parent.Parent.SettingsHolder
+	
+	script.Parent.MouseButton1Down:connect(function()
+		
+		SettingsHolder.Visible = false
+		TeleportHolder.Visible = true
+	
+	end)
+end
+coroutine.wrap(YHRXQJ_fake_script)()
+local function TLWWCA_fake_script() -- SettingsButton.Script 
+	local script = Instance.new('Script', SettingsButton)
+
+	TeleportHolder = script.Parent.Parent.Parent.TeleportHolder
+	SettingsHolder = script.Parent.Parent.Parent.SettingsHolder
+	
+	script.Parent.MouseButton1Down:connect(function()
+		
+		SettingsHolder.Visible = true
+		TeleportHolder.Visible = false
+		
+	
+	end)
+end
+coroutine.wrap(TLWWCA_fake_script)()
+local function FKWT_fake_script() -- Bank.LocalScript 
+	local script = Instance.new('LocalScript', Bank)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-375.45874, 21.2499962, -309.358307, -0.999996245, -1.50952975e-08, 0.00273454608, -1.49714943e-08, 1, 4.52939446e-08, -0.00273454608, 4.52528361e-08, -0.999996245)
+	end)
+end
+coroutine.wrap(FKWT_fake_script)()
+local function MGODC_fake_script() -- Base.LocalScript 
+	local script = Instance.new('LocalScript', Base)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-905.57428, -39.3992119, -563.529419, 0.999948382, -3.95480715e-09, 0.0101615535, 3.90952781e-09, 1, 4.47580994e-09, -0.0101615535, -4.43585213e-09, 0.999948382)
+	end)
+end
+coroutine.wrap(MGODC_fake_script)()
+local function PPGGIVQ_fake_script() -- UFO.LocalScript 
+	local script = Instance.new('LocalScript', UFO)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(64.1312943, 138.999954, -682.249268, 0.949370861, -2.1308221e-08, 0.314157516, 1.31492017e-09, 1, 6.38529158e-08, -0.314157516, -6.02070074e-08, 0.949370861)
+	end)
+end
+coroutine.wrap(PPGGIVQ_fake_script)()
+local function EQWZ_fake_script() -- BOX.LocalScript 
+	local script = Instance.new('LocalScript', BOX)
+
+	script.Parent.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-265.358063, 53.371048, -1127.54919, 0.00531710312, -2.90787945e-08, -0.999985874, -5.77445203e-09, 1, -2.91099091e-08, 0.999985874, 5.92915095e-09, 0.00531710312)
+	end)
+end
+coroutine.wrap(EQWZ_fake_script)()
+local function NOXBBPQ_fake_script() -- countercash.LocalScript 
+	local script = Instance.new('LocalScript', countercash)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/W9K/roblox-scripts/main/DHC/SimpleSeller.lua', true))()
+	end)
+end
+coroutine.wrap(NOXBBPQ_fake_script)()
+local function IGVN_fake_script() -- CrashFps.LocalScript 
+	local script = Instance.new('LocalScript', CrashFps)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-TB-Crash/main/Swagmode%20crash%20modified%20(better%20FPS)%20crash"))()
+		wait(1)
+		game:GetService("RunService"):Set3dRenderingEnabled(false)
+	end)
+end
+coroutine.wrap(IGVN_fake_script)()
+local function CAJG_fake_script() -- COPYGROUP.LocalScript 
+	local script = Instance.new('LocalScript', COPYGROUP)
+
+	script.Parent.MouseButton1Down:connect(function()
+		setclipboard('https://www.roblox.com/groups/14709471/Mrkitty-alt-control')
+	end)
+end
+coroutine.wrap(CAJG_fake_script)()
+local function MHRFG_fake_script() -- newcrash.LocalScript 
+	local script = Instance.new('LocalScript', newcrash)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/dhcquickcrash.lua"))()
+	end)
+end
+coroutine.wrap(MHRFG_fake_script)()
+local function DQOBZ_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	--// Premium User //--
+	--// Premium User //--
+	local user_premium__001 = game.Players.MrKittenBad --// Replace "User101" with your username (NOT DISPLAY) //--
+	
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	-----------------------------------------------------------------------
+	
+	--// Premium Commands //--
+	local freeze = function()
+		game.Players.LocalPlayer.Character.LowerTorso.Anchored = true
+		game.Players.LocalPlayer.Character.UppperTorso.Anchored = true
+	end
+	
+	local unfreeze = function()
+		game.Players.LocalPlayer.Character.LowerTorso.Anchored = false
+		game.Players.LocalPlayer.Character.UppperTorso.Anchored = flase
+	end
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".base") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-905.57428, -39.3992119, -563.529419, 0.999948382, -3.95480715e-09, 0.0101615535, 3.90952781e-09, 1, 4.47580994e-09, -0.0101615535, -4.43585213e-09, 0.999948382)
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".render") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/SpaceCat-Hub/test/main/render"))()
+				wait(0)
+				game.CoreGui.ShadowUI:Destroy()
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".render") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				game:GetService("RunService"):Set3dRenderingEnabled(false)
+                wait(0)
+                wait(0.5)local ba=Instance.new("ScreenGui")
+				local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+				local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+				ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+				ca.BackgroundColor3=Color3.new(255, 0, 0)ca.Draggable=true
+				ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,370,0,52)
+				ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti Afk"ca.TextColor3=Color3.new(0,1,1)
+				ca.TextSize=22;da.Parent=ca
+				da.BackgroundColor3=Color3.new(255, 0, 0)da.Position=UDim2.new(0,0,1.0192306,0)
+				da.Size=UDim2.new(0,370,0,107)_b.Parent=da
+				_b.BackgroundColor3=Color3.new(255, 0, 0)_b.Position=UDim2.new(0,0,0.800455689,0)
+				_b.Size=UDim2.new(0,370,0,21)_b.Font=Enum.Font.Arial;_b.Text="Made by MrGatito#2003"
+				_b.TextColor3=Color3.new(0,1,1)_b.TextSize=20;ab.Parent=da
+				ab.BackgroundColor3=Color3.new(255, 0, 0)ab.Position=UDim2.new(0,0,0.158377,0)
+				ab.Size=UDim2.new(0,370,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Active"
+				ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+				game:service'Players'.LocalPlayer.Idled:connect(function()
+					bb:CaptureController()bb:ClickButton2(Vector2.new())
+					ab.Text="Roblox kicked you but we didnt let them!"wait(2)ab.Text="Status : Active"end)
+	
+				game:GetService("StarterGui"):SetCore("SendNotification", {
+					Title = "SpaceCat By:MrGatito#2003!";
+					Text = "Enjoy!";
+					Duration = 5;
+				})
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".box") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-265.358063, 53.371048, -1127.54919, 0.00531710312, -2.90787945e-08, -0.999985874, -5.77445203e-09, 1, -2.91099091e-08, 0.999985874, 5.92915095e-09, 0.00531710312)
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".prison") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-291.266083, 22.4999676, -22.3165531, -0.990327537, 8.34835578e-09, 0.138749257, 3.00894004e-10, 1, -5.8021012e-08, -0.138749257, -5.74180561e-08, -0.990327537)
+			end
+		end
+	
+	end)
+
+	
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".club") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-266.975891, 0.0313372388, -344.421112, 0.999254048, -5.36965672e-09, -0.0386185162, 5.0030553e-09, 1, -9.58953716e-09, 0.0386185162, 9.38917299e-09, 0.999254048)
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".bank") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-375.45874, 21.2499962, -309.358307, -0.999996245, -1.50952975e-08, 0.00273454608, -1.49714943e-08, 1, 4.52939446e-08, -0.00273454608, 4.52528361e-08, -0.999996245)
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".ufo") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(64.1312943, 138.999954, -682.249268, 0.949370861, -2.1308221e-08, 0.314157516, 1.31492017e-09, 1, 6.38529158e-08, -0.314157516, -6.02070074e-08, 0.949370861)
+			end
+		end
+	
+	end)
+	
+	
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".freeze") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+                local A_1 = "Freezed" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+				freeze()
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".unfree") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+                local A_1 = "UnFreezed" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+				unfreeze()
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".wallet show") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+                local A_1 = "Showing Wallet" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+				game.Players.LocalPlayer.Backpack:FindFirstChild("Wallet").Parent = game.Players.LocalPlayer.Character
+				
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".wallet hide") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+                local A_1 = "wallet hide" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+				game.Players.LocalPlayer.Character:FindFirstChild("Wallet").Parent = game.Players.LocalPlayer.Backpack
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".block") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+                local A_1 = "blocking" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+				game.ReplicatedStorage.MainEvent:FireServer("Block", true, 1, 8)
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".backoff") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+                local A_1 = "Block Off" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+				game.ReplicatedStorage.MainEvent:FireServer("Block", false, 1, 8)
+			end
+		end
+	
+	end)
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".stop") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				local A_1 = "Stopping Drop!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+                _G.Sex = false 
+			end
+		end
+	
+	end)
+
+user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".drop") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				local A_1 = "Staring Drop!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+                _G.Sex = true
+                while _G.Sex do
+                wait()
+                game.ReplicatedStorage.MainEvent:FireServer('DropMoney','10000')
+               end
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".mask") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				local savedpos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ignored.Shop["[Surgeon Mask] - $25"].Head.CFrame
+				wait(0.7)
+				fireclickdetector(game:GetService("Workspace").Ignored.Shop["[Surgeon Mask] - $25"].ClickDetector)
+				wait(0.4)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = savedpos
+				wait(0.4)
+				game.Players.LocalPlayer.Backpack:FindFirstChild("Mask").Parent = game.Players.LocalPlayer.Character
+				wait(0.5)
+				game.Players.LocalPlayer.Character["Mask"]:Activate()
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".reset") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+                game.Players.LocalPlayer.Character.Humanoid:Destroy()
+                game.Players.LocalPlayer.Character.RightHand:Destroy()
+                game.Players.LocalPlayer.Character.LeftLowerArm:Destroy()
+                game.Players.LocalPlayer.Character.RightLowerArm:Destroy()
+                game.Players.LocalPlayer.Character.LeftUpperArm:Destroy()
+                game.Players.LocalPlayer.Character.RightUpperArm:Destroy()
+                game.Players.LocalPlayer.Character.LeftUpperLeg:Destroy()
+                game.Players.LocalPlayer.Character.RightUpperLeg:Destroy()
+                game.Players.LocalPlayer.Character.UpperTorso:Destroy()
+                game.Players.LocalPlayer.Character.LeftFoot:Destroy()
+                game.Players.LocalPlayer.Character.RightFoot:Destroy()
+                game.Players.LocalPlayer.Character.LeftLowerLeg:Destroy()
+                game.Players.LocalPlayer.Character.RightLowerLeg:Destroy()
+                game.Players.LocalPlayer.Character.LowerTorso:Destroy()
+                game.Players.LocalPlayer.Character.LeftHand:Destroy()
+                game.Players.LocalPlayer.Character.Head:Destroy()
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".sit") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				game.Players.LocalPlayer.Character.Humanoid.Sit = true
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".unsit") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				game.Players.LocalPlayer.Character.Humanoid.Sit = true
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".airlock") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				for i, player in ipairs(game.Players:GetPlayers()) do -- use GetPlayers()
+					player.Character.HumanoidRootPart.CFrame = CFrame.new(player.Character.HumanoidRootPart.Position + Vector3.new(0, 10, 0))
+				end
+				wait(0.1)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".unair") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".crashfps") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-TB-Crash/main/Swagmode%20crash%20modified%20(better%20FPS)%20crash"))()
+				wait(1)
+				game:GetService("RunService"):Set3dRenderingEnabled(false)
+			end
+		end
+	
+	end)
+    --dances
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".monkey") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				if CurrAnim and CurrAnim.IsPlaying then
+					CurrAnim:Stop()
+					end
+					local Anim = Instance.new("Animation")
+					Anim.AnimationId = "http://www.roblox.com/asset/?id=3333499508"
+					CurrAnim = game.Players.LocalPlayer.Character.Humanoid.Animator:LoadAnimation(Anim)
+					CurrAnim:Play()
+					CurrAnim:AdjustSpeed()
+			end
+		end
+	
+	end)
+
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".dolphin") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				if CurrAnim and CurrAnim.IsPlaying then
+					CurrAnim:Stop()
+					end
+					local Anim = Instance.new("Animation")
+					Anim.AnimationId = "http://www.roblox.com/asset/?id=5918726674"
+					CurrAnim = game.Players.LocalPlayer.Character.Humanoid.Animator:LoadAnimation(Anim)
+					CurrAnim:Play()
+					CurrAnim:AdjustSpeed()
+			end
+		end
+	
+	end)
+
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".encrypt") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				loadstring(game:HttpGet('https://raw.githubusercontent.com/LPrandom/lua-projects/master/dahoodcrasher.lua'))()
+			end
+		end
+	
+	end)
+
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".render") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				setfpscap(5)
+			end
+		end
+	
+	end)
+
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".alts") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(user_premium__001.Character.UpperTorso.Position)
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".lowergfx1") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+				local g = game
+				local w = g.Workspace
+				local l = g.Lighting
+				local t = w.Terrain
+				t.WaterWaveSize = 0
+				t.WaterWaveSpeed = 0
+				t.WaterReflectance = 0
+				t.WaterTransparency = 0
+				l.GlobalShadows = false
+				l.FogEnd = 9e9
+				l.Brightness = 0
+				settings().Rendering.QualityLevel = "Level01"
+				for i, v in pairs(g:GetDescendants()) do
+					if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+						v.Material = "Plastic"
+						v.Reflectance = 0
+					elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+						v.Transparency = 1
+					elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+						v.Lifetime = NumberRange.new(0)
+					elseif v:IsA("Explosion") then
+						v.BlastPressure = 1
+						v.BlastRadius = 1
+					elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+						v.Enabled = false
+					elseif v:IsA("MeshPart") then
+						v.Material = "Plastic"
+						v.Reflectance = 0
+						v.TextureID = 10385902758728957
+					end
+				end
+				for i, e in pairs(l:GetChildren()) do
+					if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+						e.Enabled = false
+					end
+				end
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".hidealt") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.UpperTorso.Position.X, game.Players.LocalPlayer.Character.UpperTorso.Position.Y -10, game.Players.LocalPlayer.Character.UpperTorso.Position.z)
+				game.Players.LocalPlayer.Character.LowerTorso.Anchored = true
+			end
+		end
+	
+	end)
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".unhide") then
+			if game.Players.LocalPlayer ~= user_premium__001 then
+				game.Players.LocalPlayer.Character.LowerTorso.Anchored = false
+				wait(0.1)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.UpperTorso.Position.X, game.Players.LocalPlayer.Character.UpperTorso.Position.Y +10, game.Players.LocalPlayer.Character.UpperTorso.Position.z)
+			end
+		end
+	
+	end)
+	
+	---------------------------------------------------------------------
+	
+	user_premium__001.Chatted:connect(function(cht)
+		if cht:match(".command") then
+			if game.Players.LocalPlayer == user_premium__001 then
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Cmds:";
+					Text = ".freeze .wallet .bring .sit .unsit .airlock .unairlock .crashfps .encrypt .reset .mask .bank .ufo .base .box .freeze .unfreeze";
+					Time = 50;
+					Icon = "rbxassetid://505845268";
+				})
+			end
+		end
+	
+	end)
+	---------------------
+	
+	if game.Players.LocalPlayer == user_premium__001 then
+		game:GetService("StarterGui"):SetCore("SendNotification",{
+			Title = "Premium Loaded";
+			Text = "";
+			Time = 10;
+			Icon = "rbxassetid://505845268";
+		})
+	else
+        game:GetService("StarterGui"):SetCore("SendNotification",{
+			Title = "Premium Loaded";
+			Text = "";
+			Time = 10;
+			Icon = "rbxassetid://505845268";
+		})
+	end
+end
+coroutine.wrap(DQOBZ_fake_script)()
+else
+    plr:Kick("Invali Key") 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("hey kid what are u looking?")
